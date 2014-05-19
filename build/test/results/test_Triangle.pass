@@ -1,0 +1,55 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_getTriangleName_given_2_2_3_should_return_isoscales
+  :line: 15
+  :message: ''
+- :test: test_getTriangleName_given_2_3_3_should_return_isoscales
+  :line: 22
+  :message: ''
+- :test: test_getTriangleName_given_3_2_3_should_return_isoscales
+  :line: 29
+  :message: ''
+- :test: test_getTriangleName_given_1_2_3_should_return_scalene
+  :line: 37
+  :message: ''
+- :test: test_getTriangleName_given_3_3_3_should_return_equilateral
+  :line: 44
+  :message: ''
+- :test: test_getTriangleName_given_0_3_3_should_return_invalid
+  :line: 51
+  :message: ''
+- :test: test_getTriangleName_given_3_0_3_should_return_invalid
+  :line: 58
+  :message: ''
+- :test: test_getTriangleName_given_3_3_0_should_return_invalid
+  :line: 65
+  :message: ''
+- :test: test_getTriangleName_given_neg2_3_3_should_return_invalid
+  :line: 72
+  :message: ''
+- :test: test_getTriangleName_given_3_neg2_3_should_return_invalid
+  :line: 79
+  :message: ''
+- :test: test_getTriangleName_given_3_3_neg2_should_return_invalid
+  :line: 86
+  :message: ''
+- :test: test_getTriangleName_given_1_1_3_should_return_invalid
+  :line: 93
+  :message: ''
+- :test: test_getTriangleName_given_1_3_1_should_return_invalid
+  :line: 100
+  :message: ''
+- :test: test_getTriangleName_given_3_1_1_should_return_invalid
+  :line: 107
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 14
+  :passed: 14
+  :failed: 0
+  :ignored: 0
+:stdout: []
